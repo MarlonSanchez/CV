@@ -76,6 +76,7 @@
   font-family: Arial;
   font-size: 20px;
   padding: 2%;
+  text-align:center;
 }
 
 .formation {
@@ -177,11 +178,54 @@
   border: 5px solid #92d050;
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
+  padding: 5% 0 5% 0;
+}
+
+.tiera {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tiera .html {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+}
+
+.tiera .css {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+}
+
+.tiera .js {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+}
+
+.tierb {
+  width: 100%;
+  display: flex;
   justify-content: space-around;
   padding: 5% 0 5% 0;
 }
 
-.compétence .container .html {
+.tierb .bootstrap {
   /*width: 20%;*/
   background-color: white;
   border: 5px solid #92d050;
@@ -191,7 +235,7 @@
   padding: 2%;
 }
 
-.compétence .container .css {
+.tierb .angular {
   /*width: 20%;*/
   background-color: white;
   border: 5px solid #92d050;
@@ -201,7 +245,33 @@
   padding: 2%;
 }
 
-.compétence .container .js {
+.tierc {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tierc .php {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+}
+
+.tierc .sql {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+}
+
+.tierc .jquery {
   /*width: 20%;*/
   background-color: white;
   border: 5px solid #92d050;
@@ -214,4 +284,11 @@
 .footer {
   background-color: #262626;
   padding: 2%;
+}
+
+.footer p {
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: right;
 }
