@@ -97,7 +97,7 @@
   width: 80%;
   font-family: Arial;
   font-size: 20px;
-  margin: 5% 10% 5% 10%;
+  margin: 2.5% 10% 2.5% 10%;
   border: 5px solid #92d050;
   border-radius: 20px;
 }
@@ -130,7 +130,7 @@
   width: 80%;
   font-family: Arial;
   font-size: 20px;
-  margin: 5% 10% 5% 10%;
+  margin: 2.5% 10% 2.5% 10%;
   /*padding: 2%;*/
   border: 5px solid #92d050;
   border-radius: 20px;
@@ -179,7 +179,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  padding: 5% 0 5% 0;
+  padding: 2.5% 0 2.5% 0;
 }
 
 .tiera {
@@ -235,6 +235,21 @@
   padding: 2%;
 }
 
+.tierb p {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial;
+  align-self: center;
+  color: #262626;
+}
+
 .tierb .angular {
   /*width: 20%;*/
   background-color: white;
@@ -249,6 +264,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2.5%;
 }
 
 .tierc .php {
@@ -279,6 +295,78 @@
   display: flex;
   /*justify-content: space-between;*/
   padding: 2%;
+}
+
+.compétence .container p {
+  /*width: 20%;*/
+  background-color: white;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial;
+  align-self: center;
+  color: #262626;
+}
+
+.tierd {
+  width: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2.5%;
+}
+
+#carousel {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  border: 5px solid #92d050;
+  border-radius: 20px;
+  padding: 0;
+  /* Décommentez petit à petit pour voir ce que ces propriétés font : */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#carousel li {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 500px;
+  height: 450px;
+  opacity: 0;
+}
+
+#carousel li img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+/* impaire (1er et 3e) */
+
+.active {
+  opacity: 1!important;
+}
+
+button {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #92d050;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .footer {
